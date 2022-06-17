@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MVC RecycleView</string>
+    <string name="phong_kaster">Phong Kaster</string>
+    <string name="model_view_controller">MODEL - VIEW - CONTROLLER</string>
+    <string name="create">CREATE</string>
+    <string name="edit">Modify</string>
+    <string name="remove">Eradicate</string>
+</resources>
