@@ -18,6 +18,7 @@
   - [**Step 3: Create MainActivity layout**](#step-3-create-mainactivity-layout)
   - [**Step 4: define functionalities for each Activity**](#step-4-define-functionalities-for-each-activity)
 - [**Demo**](#demo)
+- [**Advantages & Disadvantages**](#advantages--disadvantages)
 - [**My Mentors**](#my-mentors)
 - [**Made with 💘 and Android <img src="https://www.vectorlogo.zone/logos/android/android-tile.svg" width="40px">**](#made-with--and-android-)
 
@@ -233,13 +234,19 @@ This class will establish the relationship between View and Model. The data prov
 
 # [**Demo**](#demo)
 
-
-
-# [**My Mentors**](#my-mentors)
-
 https://user-images.githubusercontent.com/58034430/174276179-bb1f0f75-0f05-41bb-b517-7004a039358e.mov
 
 
+# [**Advantages & Disadvantages**](#advantages--disadvantages)
+
+| Advantages                                                                                                                                                                                               | Disadvantages                                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| MVC pattern increases the code testability and makes it easier to implement new features as it highly supports the separation of concerns.                                                               | Code layers depend on each other even if MVC is applied correctly. |
+| Unit testing of Model and Controller is possible as they do not extend or use any Android class.                                                                                                         | No parameter to handle UI logic i.e., how to display the data.     |
+| Functionalities of the View can be checked through UI tests if the View respect the single responsibility principle(update controller and display data from the model without implementing domain logic) |                                                                    |
+
+
+# [**My Mentors**](#my-mentors)
 <table>
         <tr>
             <td align="center">
